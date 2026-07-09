@@ -34,3 +34,33 @@ body{
     width: 320px;
     border-radius: 20px;
 }
+
+/* Navigation Bar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #161b22;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo span{
+    color: #58a6ff;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 500;
+    transition: color 0.3s;
+}
+.nav-links a:hover{
+    color: #58a6ff;
+}

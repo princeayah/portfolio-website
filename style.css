@@ -64,3 +64,57 @@ body{
 .nav-links a:hover{
     color: #58a6ff;
 }
+/* hero buttons */
+.btn{
+    display: inline-block;
+    padding: 14px 28px;
+    margin-right: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-primary{
+    background-color: #58a6ff;
+    color: white;
+}
+.btn-primary:hover{
+    transform: translateY(10px);
+    box-shadow: 0 10px 20px rgba(88, 166, 255, 0.3);
+}
+.btn-secondary{
+    border: 2px solid #58a6ff;
+    color: #58a6ff;
+}
+.btn-secondary:hover{
+    background: #58a6ff;
+    color: white;
+}
+
+#about{
+
+    padding:80px 10%;
+
+}
+
+#about h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+    color:#58a6ff;
+
+}
+
+#about p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#c9d1d9;
+
+    max-width:900px;
+
+}

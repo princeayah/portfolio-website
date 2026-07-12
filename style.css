@@ -118,3 +118,48 @@ body{
     max-width:900px;
 
 }
+
+/* ===========================
+   SKILLS SECTION
+=========================== */
+
+#skills{
+    padding:80px 10%;
+}
+
+#skills h2{
+    text-align:center;
+    font-size:40px;
+    color:#58a6ff;
+    margin-bottom:50px;
+}
+
+.skills-container{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.skill-card{
+    background:#161b22;
+    padding:30px;
+    border-radius:12px;
+    width:250px;
+    transition:0.3s;
+    border:1px solid #30363d;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+}
+
+.skill-card h3{
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+
+.skill-card p{
+    line-height:1.7;
+    color:#c9d1d9;
+}

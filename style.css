@@ -257,3 +257,153 @@ body{
     background:#1f6feb;
 
 }
+
+/* ===========================
+   CONTACT SECTION
+=========================== */
+
+#contact{
+
+    padding:80px 10%;
+
+    text-align:center;
+
+}
+
+#contact h2{
+
+    color:#58a6ff;
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+#contact p{
+
+    margin-bottom:30px;
+
+    color:#c9d1d9;
+
+}
+
+.contact-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.contact-links a{
+
+    text-decoration:none;
+
+    background:#58a6ff;
+
+    color:white;
+
+    padding:15px 25px;
+
+    border-radius:10px;
+
+    transition:0.3s;
+
+}
+
+.contact-links a:hover{
+
+    background:#1f6feb;
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    background:#161b22;
+
+    color:#8b949e;
+
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+@media (max-width: 768px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    .nav-links{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    #hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        gap:50px;
+
+    }
+
+    .hero-content{
+
+        width:100%;
+
+    }
+
+    .hero-image{
+
+        width:100%;
+
+    }
+
+    .hero-image img{
+
+        width:250px;
+
+    }
+
+    .skills-container{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .projects-container{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .contact-links{
+
+        flex-direction:column;
+
+    }
+
+}
